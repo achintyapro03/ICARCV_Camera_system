@@ -494,7 +494,6 @@ class SerialCommunicationThread(threading.Thread):
                 print("read exception : " + str(e))
             
             if self.mode == 1 and self.caliberated[0] and self.caliberated[1] and self.times != 1:
-                print("gay")
                 # self.theta_offsets[0] = 0
                 # self.theta_offsets[1] = self.thetas[1] - 180 + 2
                 # self.theta_offsets[2] = self.thetas[2] - 0.5
